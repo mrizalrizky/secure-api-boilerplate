@@ -68,3 +68,5 @@ app.all("/secure", leveledApi, (req, res) => {
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
 });
+
+module.exports = app;
